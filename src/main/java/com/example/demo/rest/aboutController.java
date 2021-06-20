@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class aboutController {
 
-    @CrossOrigin(origins = "http://localhost:8091")
     @GetMapping("/about")
+    @CrossOrigin(exposedHeaders="Access-Control-Allow-Origin")
     public boolean about() {
         return true;
     }
