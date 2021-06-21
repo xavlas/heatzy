@@ -31,3 +31,12 @@ build/
 
 ### VS Code ###
 .vscode/
+
+/dist
+/tmp
+/node_modules
+
+/.idea
+.project
+.classpath
+.setting
